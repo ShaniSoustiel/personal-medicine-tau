@@ -22,7 +22,7 @@ phen = pd.read_excel(input_path+'phenotypes.xlsx')
 # and calculate P-value scores for th chosen SNP
 
 # filter out the heterozygous markers, cells with "H" in them
-gen_no_hetero = gen[gen['check hetrozygoty'] != "Contains H"]
+gen_no_hetero = gen[gen['check hetrozygoty'] != "Contains H"] # 0.5% of the data
 
 
 
